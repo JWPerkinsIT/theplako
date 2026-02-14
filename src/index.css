@@ -42,6 +42,10 @@
 
   .gradient-text {
     @apply bg-gradient-to-r from-accent-400 to-accent-200 bg-clip-text text-transparent;
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
   }
 
   .glass-card {

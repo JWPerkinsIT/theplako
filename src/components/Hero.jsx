@@ -144,18 +144,28 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-16 w-full">
         <div className="max-w-3xl">
           <div
-            className={`transition-all duration-700 delay-200 ${
+            className={`flex flex-wrap gap-2.5 mb-8 transition-all duration-700 delay-200 ${
               loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/5 border border-accent/10 text-accent text-sm font-medium mb-8">
-              <span className="w-2 h-2 rounded-full bg-accent animate-pulse-slow" />
-              RPA Controller Team Lead
-            </div>
+            {[
+              'RPA Controller Team Lead',
+              'Senior Service Desk Specialist',
+              'Enterprise Automation Expert',
+            ].map((role, i) => (
+              <div
+                key={role}
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/5 border border-accent/10 text-accent text-sm font-medium"
+                style={{ transitionDelay: `${200 + i * 80}ms` }}
+              >
+                <span className="w-2 h-2 rounded-full bg-accent animate-pulse-slow" />
+                {role}
+              </div>
+            ))}
           </div>
 
           <h1
-            className={`font-display font-800 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight text-white mb-6 transition-all duration-700 delay-300 ${
+            className={`font-display font-800 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.15] tracking-tight text-white mb-6 transition-all duration-700 delay-300 ${
               loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
