@@ -45,11 +45,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    display: inline;
-    line-height: inherit;
-    padding-bottom: 0.15em;
-    margin-bottom: -0.15em;
-    overflow: visible;
   }
 
   .glass-card {

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-dark-600/30 py-12 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-4">
-          <span className="font-display font-800 text-lg tracking-tight">
+          <span className="font-display font-bold text-lg tracking-tight">
             <span className="text-white">The</span>
             <span className="gradient-text ml-1">PlaKo</span>
           </span>

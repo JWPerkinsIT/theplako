@@ -133,7 +133,7 @@ export default function Skills() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <h2 className="font-display font-800 text-3xl md:text-4xl lg:text-5xl text-white mb-4">
+          <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl text-white mb-4">
             What I <span className="gradient-text">Work With</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

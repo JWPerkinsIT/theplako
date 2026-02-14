@@ -165,7 +165,7 @@ export default function Hero() {
           </div>
 
           <h1
-            className={`font-display font-800 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.2] tracking-tight text-white mb-6 transition-all duration-700 delay-300 ${
+            className={`font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-white mb-6 transition-all duration-700 delay-300 ${
               loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >

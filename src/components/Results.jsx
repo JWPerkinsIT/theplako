@@ -37,7 +37,7 @@ function MetricCard({ metric, index, isVisible }) {
       }`}
       style={{ transitionDelay: `${index * 150}ms` }}
     >
-      <div className="font-display font-800 text-5xl md:text-6xl lg:text-7xl gradient-text mb-2 tabular-nums">
+      <div className="font-display font-bold text-5xl md:text-6xl lg:text-7xl gradient-text mb-2 tabular-nums">
         {count.toLocaleString()}
         {metric.suffix}
       </div>
@@ -65,7 +65,7 @@ export default function Results() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <h2 className="font-display font-800 text-3xl md:text-4xl lg:text-5xl text-white mb-4">
+          <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl text-white mb-4">
             Proven <span className="gradient-text">Impact</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

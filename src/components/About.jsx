@@ -53,7 +53,7 @@ export default function About() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <h2 className="font-display font-800 text-3xl md:text-4xl lg:text-5xl text-white mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl text-white mb-6">
               Built on <span className="gradient-text">Real Experience</span>
             </h2>
 
