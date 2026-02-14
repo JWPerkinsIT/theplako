@@ -41,11 +41,15 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-accent-400 to-accent-200 bg-clip-text text-transparent;
-    padding-bottom: 0.1em;
-    margin-bottom: -0.1em;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+    background: linear-gradient(to right, #4ddbff, #80e6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+    line-height: inherit;
+    padding-bottom: 0.15em;
+    margin-bottom: -0.15em;
+    overflow: visible;
   }
 
   .glass-card {

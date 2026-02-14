@@ -61,7 +61,6 @@ const skillCategories = [
       'Active Directory (On-Prem + Cloud)',
       'Cisco / Ubiquiti Networking',
       'JAMF (macOS Management)',
-      'Dell Server Hardware (R420, R740)',
       'Homelab Architecture',
     ],
   },
